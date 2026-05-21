@@ -26,7 +26,7 @@ docker-compose -f docker-compose-mysql.yml down
 ```
 
 #### Execução da aplicação
-- Para executar a aplicação é necessário a execução do container MySQL. 
+- Para executar a aplicação é necessário executar o container MySQL. 
 
 - Restaurar dependencias .Net 
 ```bash
