@@ -1,4 +1,4 @@
-## 🔄 ApiNet2-Dapper-docker
+## 🔄 Api2-Dapper-Docker
 Exemplo de API Asp.Net Core utilizando banco de dados MySQL acessando com Dapper.
 
 #### O que você vai encontrar neste projeto
