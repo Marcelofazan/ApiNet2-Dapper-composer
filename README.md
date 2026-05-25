@@ -1,4 +1,4 @@
-## 🔄 ApiNet2-Dapper-compose
+## 🔄 ApiNet2-Dapper-docker
 Exemplo de API Asp.Net Core utilizando banco de dados MySQL acessando com Dapper.
 
 #### O que você vai encontrar neste projeto
@@ -8,7 +8,7 @@ Exemplo de API Asp.Net Core utilizando banco de dados MySQL acessando com Dapper
 | **docker-compose-mysql.yml** |  Arquivo container do MySQL contendo a criação do banco de dados e volumes(Geração do Script automático). |
 
 #### Requisitos do Projeto
-- Necessário **Docker-composer** instalado.
+- Necessário **Docker** instalado.
 - Baixar Container temporário do Servidor MySQL e executar o Script por linha de código.
 
 Na pasta **database** esta pasta contém um arquivo, (script_inicial.sql), que será executado quando o container da imagem MySQL for instanciado.
@@ -33,7 +33,7 @@ dotnet restore
 dotnet run
 ```
 
-#### ⚙️ Configuração Driver MySQL para IDE (**DBeaver** ou Workbench) 
+#### ⚙️ Configuração SSL para Driver MySQL IDE (**DBeaver** ou Workbench) 
 
 Navegue até Propriedades do driver: Clique na guia Propriedades do driver (ao lado da guia “Principal”).
 Habilitar recuperação:
